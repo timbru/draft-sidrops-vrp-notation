@@ -4,8 +4,8 @@
 
 Network Working Group                                     T. Bruijnzeels
 Internet-Draft                                                NLnet Labs
-Intended status: Informational                               15 May 2023
-Expires: 16 November 2023
+Intended status: Informational                               5 July 2023
+Expires: 6 January 2024
 
 
               Human Readable Validate ROA Payload Notation
@@ -14,8 +14,8 @@ Expires: 16 November 2023
 Abstract
 
    This document defines a human readable notation for Validated ROA
-   Payloads (VRP, RFC 6811) for use with RPKI tooling based on ABNF (RFC
-   5234).
+   Payloads (VRP, RFC 6811) based on ABNF (RFC 5234) for use with RPKI
+   tooling and documentation.
 
 Status of This Memo
 
@@ -32,7 +32,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 16 November 2023.
+   This Internet-Draft will expire on 6 January 2024.
 
 Copyright Notice
 
@@ -53,9 +53,9 @@ Copyright Notice
 
 
 
-Bruijnzeels             Expires 16 November 2023                [Page 1]
+Bruijnzeels              Expires 6 January 2024                 [Page 1]
 
-Internet-Draft                VRP Notation                      May 2023
+Internet-Draft                VRP Notation                     July 2023
 
 
 Table of Contents
@@ -109,9 +109,9 @@ Table of Contents
 
 
 
-Bruijnzeels             Expires 16 November 2023                [Page 2]
+Bruijnzeels              Expires 6 January 2024                 [Page 2]
 
-Internet-Draft                VRP Notation                      May 2023
+Internet-Draft                VRP Notation                     July 2023
 
 
    notation      = vrp-prefix separator origin-asn
@@ -165,9 +165,9 @@ Internet-Draft                VRP Notation                      May 2023
 
 
 
-Bruijnzeels             Expires 16 November 2023                [Page 3]
+Bruijnzeels              Expires 6 January 2024                 [Page 3]
 
-Internet-Draft                VRP Notation                      May 2023
+Internet-Draft                VRP Notation                     July 2023
 
 
    If the max-length is specified then its value needs to be the same as
@@ -221,9 +221,9 @@ Internet-Draft                VRP Notation                      May 2023
 
 
 
-Bruijnzeels             Expires 16 November 2023                [Page 4]
+Bruijnzeels              Expires 6 January 2024                 [Page 4]
 
-Internet-Draft                VRP Notation                      May 2023
+Internet-Draft                VRP Notation                     July 2023
 
 
    [RFC4632]  Fuller, V. and T. Li, "Classless Inter-domain Routing
@@ -277,4 +277,4 @@ Author's Address
 
 
 
-Bruijnzeels             Expires 16 November 2023                [Page 5]
+Bruijnzeels              Expires 6 January 2024                 [Page 5]

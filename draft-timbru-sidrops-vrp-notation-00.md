@@ -27,8 +27,8 @@ organization = "NLnet Labs"
 .# Abstract
 
 This document defines a human readable notation for Validated ROA
-Payloads (VRP, RFC 6811) for use with RPKI tooling based on
-ABNF (RFC 5234).
+Payloads (VRP, RFC 6811) based on ABNF (RFC 5234) for use with RPKI
+tooling and documentation.
 
 {mainmatter}
 
