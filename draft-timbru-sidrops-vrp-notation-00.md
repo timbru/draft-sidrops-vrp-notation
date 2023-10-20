@@ -44,7 +44,7 @@ this document are to be interpreted as described in BCP 14 [@!RFC2119]
 This informational document defines a human readable notation for
 Validated ROA Payloads (VRPs) [@!RFC6811].
 
-We provide this notation because it can can help to create consistency
+We provide this notation because it can help to create consistency
 between RPKI Relying Party software output, making it easier for operators
 to compare results. It can also be used by RPKI Certificate Authorities
 (CA) command line interfaces and/or configuration. E.g. allowing a CA to
@@ -99,7 +99,7 @@ specifications for IPv4 and IPv6 CIDR prefix notation. The fairly basic
 specifications defined above cover the notation of valid CIDR prefixes,
 but it should be noted that they also allow for the notation of invalid
 IPv6 addresses, and allow for prefix length values that are not applicable
-to the base IP address. Rather than trying to define these rule in detail
+to the base IP address. Rather than trying to define these rules in detail
 here we refer to section 3.1 of [@!RFC4632] for guidelines on IPv4 CIDR
 notation and section 2.3 of [@!RFC4291] for IPv6.
 
@@ -111,7 +111,7 @@ max-length for the VRP will be the same as the VPR prefix length.
 ## origin-asn
 
 This field can optionally be prepended with the string "AS" followed by
-a decimal value of a 32 bit Autonomous System Number using the asplain
+a decimal value of a 32-bit Autonomous System Number using the asplain
 presentation as specified in [@!RFC5396]. Decimal values MUST be used,
 and values MUST be part of the range 0-4294967295.
 
@@ -139,6 +139,6 @@ TBD
 
 # Acknowledgements
 
-TBD
+Thanks to Nan Geng for the editorial feedback.
 
 {backmatter}

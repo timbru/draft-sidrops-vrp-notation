@@ -4,8 +4,8 @@
 
 Network Working Group                                     T. Bruijnzeels
 Internet-Draft                                                NLnet Labs
-Intended status: Informational                               5 July 2023
-Expires: 6 January 2024
+Intended status: Informational                           20 October 2023
+Expires: 22 April 2024
 
 
               Human Readable Validate ROA Payload Notation
@@ -32,7 +32,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 6 January 2024.
+   This Internet-Draft will expire on 22 April 2024.
 
 Copyright Notice
 
@@ -53,9 +53,9 @@ Copyright Notice
 
 
 
-Bruijnzeels              Expires 6 January 2024                 [Page 1]
+Bruijnzeels               Expires 22 April 2024                 [Page 1]
 
-Internet-Draft                VRP Notation                     July 2023
+Internet-Draft                VRP Notation                  October 2023
 
 
 Table of Contents
@@ -85,9 +85,9 @@ Table of Contents
    This informational document defines a human readable notation for
    Validated ROA Payloads (VRPs) [RFC6811].
 
-   We provide this notation because it can can help to create
-   consistency between RPKI Relying Party software output, making it
-   easier for operators to compare results.  It can also be used by RPKI
+   We provide this notation because it can help to create consistency
+   between RPKI Relying Party software output, making it easier for
+   operators to compare results.  It can also be used by RPKI
    Certificate Authorities (CA) command line interfaces and/or
    configuration.  E.g. allowing a CA to provide a listing of intended
    VRPs which can be easily compared to RP output.  Our final goal is
@@ -109,9 +109,9 @@ Table of Contents
 
 
 
-Bruijnzeels              Expires 6 January 2024                 [Page 2]
+Bruijnzeels               Expires 22 April 2024                 [Page 2]
 
-Internet-Draft                VRP Notation                     July 2023
+Internet-Draft                VRP Notation                  October 2023
 
 
    notation      = vrp-prefix separator origin-asn
@@ -154,8 +154,8 @@ Internet-Draft                VRP Notation                     July 2023
    prefixes, but it should be noted that they also allow for the
    notation of invalid IPv6 addresses, and allow for prefix length
    values that are not applicable to the base IP address.  Rather than
-   trying to define these rule in detail here we refer to section 3.1 of
-   [RFC4632] for guidelines on IPv4 CIDR notation and section 2.3 of
+   trying to define these rules in detail here we refer to section 3.1
+   of [RFC4632] for guidelines on IPv4 CIDR notation and section 2.3 of
    [RFC4291] for IPv6.
 
 
@@ -165,9 +165,9 @@ Internet-Draft                VRP Notation                     July 2023
 
 
 
-Bruijnzeels              Expires 6 January 2024                 [Page 3]
+Bruijnzeels               Expires 22 April 2024                 [Page 3]
 
-Internet-Draft                VRP Notation                     July 2023
+Internet-Draft                VRP Notation                  October 2023
 
 
    If the max-length is specified then its value needs to be the same as
@@ -179,7 +179,7 @@ Internet-Draft                VRP Notation                     July 2023
 3.2.  origin-asn
 
    This field can optionally be prepended with the string "AS" followed
-   by a decimal value of a 32 bit Autonomous System Number using the
+   by a decimal value of a 32-bit Autonomous System Number using the
    asplain presentation as specified in [RFC5396].  Decimal values MUST
    be used, and values MUST be part of the range 0-4294967295.
 
@@ -205,7 +205,7 @@ Internet-Draft                VRP Notation                     July 2023
 
 7.  Acknowledgements
 
-   TBD
+   Thanks to Nan Geng for the editorial feedback.
 
 8.  Normative References
 
@@ -221,9 +221,9 @@ Internet-Draft                VRP Notation                     July 2023
 
 
 
-Bruijnzeels              Expires 6 January 2024                 [Page 4]
+Bruijnzeels               Expires 22 April 2024                 [Page 4]
 
-Internet-Draft                VRP Notation                     July 2023
+Internet-Draft                VRP Notation                  October 2023
 
 
    [RFC4632]  Fuller, V. and T. Li, "Classless Inter-domain Routing
@@ -277,4 +277,4 @@ Author's Address
 
 
 
-Bruijnzeels              Expires 6 January 2024                 [Page 5]
+Bruijnzeels               Expires 22 April 2024                 [Page 5]

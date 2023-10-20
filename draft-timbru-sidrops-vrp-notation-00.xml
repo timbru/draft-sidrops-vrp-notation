@@ -121,7 +121,7 @@ and values MUST be part of the range 0-4294967295.</t>
 </section>
 
 <section anchor="acknowledgements"><name>Acknowledgements</name>
-Thanks to Nan Geng for the editorial feedback.
+<t>Thanks to Nan Geng for the editorial feedback.</t>
 </section>
 
 </middle>
