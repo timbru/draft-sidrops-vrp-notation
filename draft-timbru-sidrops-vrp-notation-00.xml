@@ -6,6 +6,12 @@
 <title abbrev="VRP Notation">Human Readable Validate ROA Payload Notation</title><seriesInfo value="draft-timbru-sidrops-vrp-notation-00" status="informational" name="Internet-Draft"></seriesInfo>
 <author initials="T." surname="Bruijnzeels" fullname="Tim Bruijnzeels"><organization>NLnet Labs</organization><address><postal><street></street>
 </postal><email>tim@nlnetlabs.nl</email>
+</address></author><author initials="T." surname="de Kock" fullname="Ties de Kock"><organization>RIPE NCC</organization><address><postal><street></street>
+</postal><email>tdekock@ripe.net</email>
+</address></author><author initials="O." surname="Borchert" fullname="Oliver Borchert"><organization>NIST</organization><address><postal><street></street>
+</postal><email>oliver.borchert@nist.gov</email>
+</address></author><author initials="D." surname="Ma" fullname="Di Ma"><organization>ZDNS</organization><address><postal><street></street>
+</postal><email>madi@zdns.cn</email>
 </address></author><date/>
 <area>Internet</area>
 <workgroup></workgroup>

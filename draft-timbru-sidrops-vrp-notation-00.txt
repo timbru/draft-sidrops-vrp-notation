@@ -4,8 +4,13 @@
 
 Network Working Group                                     T. Bruijnzeels
 Internet-Draft                                                NLnet Labs
-Intended status: Informational                           20 October 2023
-Expires: 22 April 2024
+Intended status: Informational                                T. de Kock
+Expires: 22 April 2024                                          RIPE NCC
+                                                             O. Borchert
+                                                                    NIST
+                                                                   D. Ma
+                                                                    ZDNS
+                                                         20 October 2023
 
 
               Human Readable Validate ROA Payload Notation
@@ -39,6 +44,20 @@ Copyright Notice
    Copyright (c) 2023 IETF Trust and the persons identified as the
    document authors.  All rights reserved.
 
+
+
+
+
+
+
+
+
+
+Bruijnzeels, et al.       Expires 22 April 2024                 [Page 1]
+
+Internet-Draft                VRP Notation                  October 2023
+
+
    This document is subject to BCP 78 and the IETF Trust's Legal
    Provisions Relating to IETF Documents (https://trustee.ietf.org/
    license-info) in effect on the date of publication of this document.
@@ -48,21 +67,11 @@ Copyright Notice
    described in Section 4.e of the Trust Legal Provisions and are
    provided without warranty as described in the Revised BSD License.
 
-
-
-
-
-
-Bruijnzeels               Expires 22 April 2024                 [Page 1]
-
-Internet-Draft                VRP Notation                  October 2023
-
-
 Table of Contents
 
    1.  Requirements notation . . . . . . . . . . . . . . . . . . . .   2
    2.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . .   2
-   3.  VRP Notation Definition . . . . . . . . . . . . . . . . . . .   2
+   3.  VRP Notation Definition . . . . . . . . . . . . . . . . . . .   3
      3.1.  roa-prefix  . . . . . . . . . . . . . . . . . . . . . . .   3
      3.2.  origin-asn  . . . . . . . . . . . . . . . . . . . . . . .   4
    4.  Example Notations . . . . . . . . . . . . . . . . . . . . . .   4
@@ -70,7 +79,7 @@ Table of Contents
    6.  Security Considerations . . . . . . . . . . . . . . . . . . .   4
    7.  Acknowledgements  . . . . . . . . . . . . . . . . . . . . . .   4
    8.  Normative References  . . . . . . . . . . . . . . . . . . . .   4
-   Author's Address  . . . . . . . . . . . . . . . . . . . . . . . .   5
+   Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .   5
 
 1.  Requirements notation
 
@@ -97,22 +106,17 @@ Table of Contents
    choose to use their own notation styles instead of, or in addition to
    this.
 
-3.  VRP Notation Definition
-
-   This specification uses ABNF syntax specified in [RFC5234].
 
 
 
-
-
-
-
-
-
-Bruijnzeels               Expires 22 April 2024                 [Page 2]
+Bruijnzeels, et al.       Expires 22 April 2024                 [Page 2]
 
 Internet-Draft                VRP Notation                  October 2023
 
+
+3.  VRP Notation Definition
+
+   This specification uses ABNF syntax specified in [RFC5234].
 
    notation      = vrp-prefix separator origin-asn
    vrp-prefix    = v4-vrp-prefix / v6-vrp-prefix
@@ -161,11 +165,7 @@ Internet-Draft                VRP Notation                  October 2023
 
 
 
-
-
-
-
-Bruijnzeels               Expires 22 April 2024                 [Page 3]
+Bruijnzeels, et al.       Expires 22 April 2024                 [Page 3]
 
 Internet-Draft                VRP Notation                  October 2023
 
@@ -221,7 +221,7 @@ Internet-Draft                VRP Notation                  October 2023
 
 
 
-Bruijnzeels               Expires 22 April 2024                 [Page 4]
+Bruijnzeels, et al.       Expires 22 April 2024                 [Page 4]
 
 Internet-Draft                VRP Notation                  October 2023
 
@@ -250,13 +250,26 @@ Internet-Draft                VRP Notation                  October 2023
               2119 Key Words", BCP 14, RFC 8174, DOI 10.17487/RFC8174,
               May 2017, <https://www.rfc-editor.org/info/rfc8174>.
 
-Author's Address
+Authors' Addresses
 
    Tim Bruijnzeels
    NLnet Labs
    Email: tim@nlnetlabs.nl
 
 
+   Ties de Kock
+   RIPE NCC
+   Email: tdekock@ripe.net
+
+
+   Oliver Borchert
+   NIST
+   Email: oliver.borchert@nist.gov
+
+
+   Di Ma
+   ZDNS
+   Email: madi@zdns.cn
 
 
 
@@ -264,17 +277,4 @@ Author's Address
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-Bruijnzeels               Expires 22 April 2024                 [Page 5]
+Bruijnzeels, et al.       Expires 22 April 2024                 [Page 5]

@@ -16,6 +16,30 @@ organization = "NLnet Labs"
   [author.address]
   email = "tim@nlnetlabs.nl"
 
+[[author]]
+initials="T."
+surname="de Kock"
+fullname="Ties de Kock"
+organization = "RIPE NCC"
+  [author.address]
+  email = "tdekock@ripe.net"
+
+[[author]]
+initials="O."
+surname="Borchert"
+fullname="Oliver Borchert"
+organization = "NIST"
+  [author.address]
+  email = "oliver.borchert@nist.gov"
+
+[[author]]
+initials="D."
+surname="Ma"
+fullname="Di Ma"
+organization = "ZDNS"
+  [author.address]
+  email = "madi@zdns.cn"
+
 [pi]
  toc = "yes"
  compact = "yes"
