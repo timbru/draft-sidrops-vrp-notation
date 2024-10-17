@@ -12,9 +12,9 @@ value = "draft-ietf-sidrops-vrp-notation-00"
 initials="T."
 surname="Bruijnzeels"
 fullname="Tim Bruijnzeels"
-organization = "NLnet Labs"
+organization = "RIPE NCC"
   [author.address]
-  email = "tim@nlnetlabs.nl"
+  email = "tbruijnzeels@ripe.net"
 
 [[author]]
 initials="T."
