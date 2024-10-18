@@ -86,7 +86,7 @@ This specification uses ABNF syntax specified in [@!RFC5234].
 notation      = vrp-prefix separator origin-asn
 vrp-prefix    = v4-vrp-prefix / v6-vrp-prefix
 
-v4-vrp-prefix = v4-cidr ["-" max-length-v4]
+v4-vrp-prefix = v4-cidr ["-" v4-max-length]
 v4-cidr       = v4-address "/" v4-pfx-length
 v4-address    = v4-byte "." v4-byte "." v4-byte "." v4-byte
 v4-byte       = %d0-255
