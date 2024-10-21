@@ -107,7 +107,7 @@ v6-max-length = %d0-128
 
 separator     = " => "
 
-origin-asn    = ["AS"] uint32
+origin-asn    = "AS" uint32
 uint32        = %d0-4294967295
 ~~~
 
@@ -134,21 +134,21 @@ max-length for the VRP will be the same as the VPR prefix length.
 
 ## origin-asn
 
-This field can optionally be prepended with the string "AS" followed by
-a decimal value of a 32-bit Autonomous System Number using the asplain
-presentation as specified in [@!RFC5396]. Decimal values MUST be used,
-and values MUST be part of the range 0-4294967295.
+This field consists of the string "AS" followed by a decimal value of a 32-bit
+Autonomous System Number using the asplain presentation as specified in
+[@!RFC5396]. Decimal values MUST represent a 32 bit value, and therefore MUST
+be part of the range 0-4294967295.
 
 # Example Notations
 
 ~~~
 192.0.2.0/24 => AS65000
 192.0.2.0/24-24 => AS65000
-192.0.2.0/24-32 => 65000
-192.0.2.0/32 => 65000
+192.0.2.0/24-32 => AS65000
+192.0.2.0/32 => AS65000
 
-2001:db8::/32 => 65000
-2001:db8::/32-32 => 65000
+2001:db8::/32 => AS65000
+2001:db8::/32-32 => AS65000
 2001:db8::/32-128 => AS65000
 2001:db8::/128 => AS65000
 ~~~
@@ -163,6 +163,7 @@ TBD
 
 # Acknowledgements
 
-Thanks to Nan Geng for the editorial feedback.
+Thanks to Nan Geng for the editorial feedback. Thanks to Randy Bush for
+suggesting to allow only one possible notation for AS numbers.
 
 {backmatter}
