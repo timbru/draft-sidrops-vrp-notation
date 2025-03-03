@@ -75,6 +75,10 @@ to compare results. It can also be used by RPKI Certificate Authorities
 provide a listing of intended VRPs which can be easily compared to RP
 output. Our final goal is that this will be helpful for documentation.
 
+The chosen notation style can be read from left to right to mean that
+the holder of the prefix (and optional max length) on the left authorises
+annoucements by the ASN on the right.
+
 That said, this document is informational. Implementations can choose
 to use their own notation styles instead of, or in addition to this.
 
