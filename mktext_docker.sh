@@ -1,5 +1,5 @@
 #!/bin/bash
-DRAFT="draft-ietf-sidrops-vrp-notation-03"
+DRAFT="draft-ietf-sidrops-vrp-notation-04"
 
 docker run --rm \
     -v $(pwd):/rfc \
